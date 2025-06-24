@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>CineSpot</title>
+</head>
+ 
+<body
+    class="bg-[url('https://img.freepik.com/free-photo/group-friends-party_23-2148115792.jpg?ga=GA1.1.20500115.1749465253&semt=ais_items_boosted&w=740')] bg-cover bg-center min-h-screen">
+
+    <!-- NavBar -->
+    <div
+        class="translate-x-6 translate-y-10 flex justify-between items-center bg-white/10 backdrop-blur-xs rounded-xl p-4 mx-auto w-[95%] max-w-7xl border-2 border-amber-500 shadow-md">
+
+
+        <!-- Logo & Brand (Left) - Now properly spaced -->
+        <div class="flex items-center gap-4 ml-4 shrink-0">
+            <a href="./index.html"><img
+                    class="h-16 w-16 md:h-20 md:w-20 hover:cursor-pointer rounded-3xl border-2 border-white" src="data:image/jpeg;base64,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
+        " alt="CineSpot Logo"></a>
+            <p class="text-white text-xl md:text-2xl font-bold hover:cursor-pointer"><a href="./index.html">CineSpot</a>
+            </p>
+        </div>
+
+        <!-- Login/SignUp (Right) -->
+        <div
+            class="text-amber-50 px-2 py-1 text-lg font-bold rounded-2xl transition-all duration-300 hover:cursor-pointer hover:scale-105 hover:text-white hover:backdrop-blur-xs mr-4">
+            <a href="./login.html">Login/SignUp</a>
+        </div>
+    </div>
+    <!--NavBar Ends-->
+
+    <!--Room Dashboard-->
+
+    <div class="mt-30 flex justify-center items-center">
+        <!-- Centered container with padding and responsive width -->
+        <div class="backdrop-blur-xl px-30 py-4 mx-auto rounded-xl shadow-lg">
+
+            <!-- Title -->
+            <p class="text-white text-lg font-bold text-center my-2.5">Dynamic Text</p>
+
+            <!-- Create Room Button -->
+            <div class="flex justify-center">
+                <p
+                    class="bg-yellow-200 text-gray-500 font-semibold hover:scale-105 px-6 py-3 rounded-full shadow hover:bg-blue-100 transition-all">
+                    <a href="#">
+                        Create Room
+                    </a></p>
+            </div>
+
+            <!-- Small note -->
+            <p class="text-sm text-white text-center mb-10">(no user account required)</p>
+
+            <!-- Logos row -->
+            <div class="flex justify-center items-center gap-6 mb-2">
+                <!-- YouTube Logo with Hover Text -->
+                <div class="relative group flex flex-col items-center">
+                    <img class="h-8 w-8 rounded-full cursor-pointer"
+                        src="https://img.freepik.com/premium-photo/red-play-icon-button-white-background-social-media-sign-concept-3d-illustration-rendering_10307-1586.jpg?ga=GA1.1.20500115.1749465253&semt=ais_items_boosted&w=740"
+                        alt="YouTube">
+                    <span
+                        class="absolute top-full mt-1 text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-xs px-2 py-0 rounded">
+                        YouTube
+                    </span>
+                </div>
+
+                <!-- SoundCloud Logo with Hover Text -->
+                <div class="relative group flex flex-col items-center">
+                    <img class="h-7 w-7 rounded-full cursor-pointer"
+                        src="https://logowik.com/content/uploads/images/t_soundcloud-icon5250.logowik.com.webp"
+                        alt="SoundCloud">
+                    <span
+                        class="absolute top-full mt-1 text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-xs px-2 py-0 rounded">
+                        SoundCloud
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--Ends-->
+
+
+
+
+</body>
+
+</html>
+
+
+
+<!--Dynamic text-->
